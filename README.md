@@ -1,3 +1,5 @@
+# make sure you put your edited shit in a new branch so you don't override our main stuff like a drongo
+
 # SDevCA1
 
 CA1 (26%)
