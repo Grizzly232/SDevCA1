@@ -1,0 +1,40 @@
+.container-fluid {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.head {
+	background-image: url("/assets/images/background.jpg");
+	background-size: 100%;
+	padding: 5%;
+	margin: 0%;
+	border-bottom: 3px solid gray;
+}
+
+.head h1 {
+	color: #e8eaed;
+	font-size: 52px;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -3px 3px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.head h4 {
+	color: #e8eaed;
+	font-size: 28px;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -2px 2px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.nav {
+	font-size: 18px;
+}
+
+.nav li {
+	background-color: #b7bec9;
+}

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\micha\Documents\play-java-seed\play-java-seed\app\views\index.scala.html:3:34: not found: value scripts[0m
+[0m[[0m[31merror[0m] [0m[0m@main("Game Commodities : Home", scripts) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
