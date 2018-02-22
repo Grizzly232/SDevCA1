@@ -4,7 +4,7 @@
 		module="gamecommodities_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180220170312"
+		publication="20180222181833"
 	>
 		<description>
 		gameCommodities
@@ -50,5 +50,9 @@
 		<dependency org="com.typesafe.play" name="play-logback_2.12" rev="2.6.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-akka-http-server_2.12" rev="2.6.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.7" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java-jpa_2.12" rev="2.6.7" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.35" conf="compile->default(compile)"/>
+		<dependency org="org.hibernate" name="hibernate-core" rev="4.2.3.Final" conf="compile->default(compile)"/>
+		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="5.1.0.Final" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180220170232"/>
+		date="20180221095138"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="sbt-plugin">
 			<revision name="2.6.7" status="release" pubdate="20171102021427" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
