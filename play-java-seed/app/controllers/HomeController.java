@@ -1,7 +1,16 @@
 package controllers;
 
+import io.ebean.Finder;
+
 import play.mvc.*;
-import java.util.Random;
+import play.api.Environment;
+import play.db.ebean.Transactional;
+
+import database.models.*;
+import views.html.*;
+
+import java.util.*;
+import javax.inject.Inject;
 import database.DatabaseJPA;
 
 /**
@@ -9,13 +18,16 @@ import database.DatabaseJPA;
  * to the application's home page.
  */
 public class HomeController extends Controller {
-	 
+
+
 	DatabaseJPA database = new DatabaseJPA();
 	Random rand = new Random();
+	List<Employee> empList = Employee.find.all();
 	 
     public Result index() {
-        return ok(views.html.index.render(Integer.toString(rand.nextInt())));
+        return ok( index.render(empList.toString()));
     }
+
 
 	public Result cart() {
 		return ok(views.html.cart.render());

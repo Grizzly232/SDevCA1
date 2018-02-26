@@ -9,7 +9,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="PU" />
+          <factory-entry name="Entities" value="36e00ccd-7e6f-4d73-b1ba-97768857f387" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../../conf/META-INF/persistence.xml" />
       </configuration>
@@ -39,7 +39,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="sbt: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-enhancer:1.2.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-jdbc-evolutions_2.12:2.6.7:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: xml-apis:xml-apis:1.4.01:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: xerces:xercesImpl:2.11.0:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: xalan:xalan:2.7.2:jar" level="project" />
@@ -98,7 +99,6 @@
     <orderEntry type="library" name="sbt: javax.transaction:jta:1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.inject:javax.inject:1:jar" level="project" />
     <orderEntry type="library" name="sbt: io.jsonwebtoken:jjwt:0.7.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: dom4j:dom4j:1.6.1:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: commons-logging:commons-logging:1.2:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: commons-io:commons-io:2.5:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.10:jar" level="project" />
@@ -114,8 +114,6 @@
     <orderEntry type="library" name="sbt: com.typesafe.play:play-jdbc_2.12:2.6.7:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:play-jdbc-api_2.12:2.6.7:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:play-java_2.12:2.6.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.play:play-java-jpa_2.12:2.6.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.play:play-java-jdbc_2.12:2.6.7:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:play-java-forms_2.12:2.6.7:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:play-guice_2.12:2.6.7:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:play-functional_2.12:2.6.7:jar" level="project" />
@@ -144,19 +142,26 @@
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.10:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.8.10:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.8.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.8.10:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.8.10:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml:classmate:1.3.1:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: cglib:cglib-nodep:3.2.4:jar" level="project" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: antlr:antlr:2.7.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: mysql:mysql-connector-java:5.1.35:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.hibernate:hibernate-core:5.1.0.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.hibernate:hibernate-entitymanager:5.1.0.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.jboss:jandex:2.0.0.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.h2database:h2:1.4.193:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-ebean_2.12:4.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-java-jdbc_2.12:2.6.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.ebean:ebean:10.4.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.ebean:ebean-agent:10.4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.ebean:ebean-annotation:2.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.ebean:ebean-dbmigration:10.1.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.ebean:persistence-api:2.2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.antlr:antlr4-runtime:4.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.avaje:avaje-classpath-scanner:2.2.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.avaje:avaje-classpath-scanner-api:2.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.avaje:avaje-datasource:2.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.avaje:avaje-datasource-api:1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.jetbrains:annotations:13.0:jar" level="project" />
   </component>
 </module>
