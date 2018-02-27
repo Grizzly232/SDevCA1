@@ -1,17 +1,19 @@
 package controllers;
 
+import io.ebean.Ebean;
 import io.ebean.Finder;
 
+import org.h2.tools.Script;
 import play.mvc.*;
 import play.api.Environment;
-import play.db.ebean.Transactional;
+import play.db.ebean.*;
 
-import database.models.*;
+import models.*;
 import views.html.*;
+import models.database.DatabaseJPA;
 
 import java.util.*;
 import javax.inject.Inject;
-import database.DatabaseJPA;
 
 /**
  * This controller contains an action to handle HTTP requests
@@ -19,13 +21,14 @@ import database.DatabaseJPA;
  */
 public class HomeController extends Controller {
 
-
-	DatabaseJPA database = new DatabaseJPA();
 	Random rand = new Random();
-	List<Employee> empList = Employee.find.all();
+    DatabaseJPA db = new DatabaseJPA();
+
 	 
     public Result index() {
-        return ok( index.render(empList.toString()));
+        db.fillEmployee(5);
+        List<Employee> empList = Employee.findAll();
+        return ok( index.render(empList.get(4).getName()));
     }
 
 
