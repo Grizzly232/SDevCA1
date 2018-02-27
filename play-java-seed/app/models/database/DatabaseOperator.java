@@ -14,7 +14,7 @@ import views.html.*;
 import java.util.*;
 import javax.inject.Inject;
 
-public class DatabaseJPA {
+public class DatabaseOperator {
 
     public char[] randomData = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
