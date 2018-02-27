@@ -28,7 +28,7 @@ public class HomeController extends Controller {
     public Result index() {
         db.fillEmployee(5);
         List<Employee> empList = Employee.findAll();
-        return ok( index.render(empList.get(4).getName()));
+        return ok( index.render(empList.get(25).getName()));
     }
 
 
