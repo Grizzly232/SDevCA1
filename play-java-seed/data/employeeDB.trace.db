@@ -20,3 +20,9 @@ emp_id                        bigint auto_increment not null,
 name                          varchar(255),
 constraint pk_employee primary key (emp_id)
 ) [42101-193]
+2018-02-28 23:42:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "DESCRIPTION VARCHAR(255)": "'Using neuralnetworks and specialized backpropagation algorithms, our scientists have managed to create an AIcapable of defining... (323)"; SQL statement:
+insert into project (project_name, category, description) values (?,?,?) [22001-193]
+2018-02-28 23:44:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "DESCRIPTION VARCHAR(255)": "'Using neuralnetworks and specialized backpropagation algorithms, our scientists have managed to create an AIcapable of defining... (323)"; SQL statement:
+insert into project (project_name, category, description) values (?,?,?) [22001-193]

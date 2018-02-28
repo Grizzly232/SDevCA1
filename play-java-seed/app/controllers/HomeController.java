@@ -24,16 +24,9 @@ public class HomeController extends Controller {
         return ok( index.render(empList.get(5).getName()));
     }
 
-
-	public Result cart() {
-		return ok(views.html.cart.render());
-	}
-	
-	public Result store() {
-		return ok(views.html.store.render());
-	}
-	
-	public Result signup() {
-		return ok(views.html.signup.render());
+    public Result projects() {
+        db.fillProject(2);
+        List<Project> projList = Project.findAll();
+		return ok(views.html.projects.render("wilkommen", projList));
 	}
 }

@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\micha\Documents\GitHub\SDevCA1\play-java-seed\app\database\DatabaseJPA.java:7:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   variable emf[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class database.DatabaseJPA[0m
-[0m[[0m[31merror[0m] [0m[0m	EntityManager em = emf.createEntityManager();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\micha\Documents\GitHub\SDevCA1\play-java-seed\app\views\main.scala.html:41:56: value signup is not a member of controllers.ReverseHomeController[0m
+[0m[[0m[31merror[0m] [0m[0m					<h5>Not a member? <a href="@routes.HomeController.signup()">Register here</a></h5>[0m
+[0m[[0m[31merror[0m] [0m[0m					                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

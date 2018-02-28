@@ -30,6 +30,14 @@ public class DatabaseOperator {
         }
     }
 
+    public void fillProject(int amount) {
+        for(int i = 0; i < amount; i++) {
+            Project proj = new Project(getString(5), "Artificial Intelligence", "Using neural" +
+                    "networks and specialized backpropagation algorithms, our scientists have managed to create an AI");
+            Ebean.save(proj);
+        }
+    }
+
     public char getLetter() {
         Random rand = new Random();
         return randomData[rand.nextInt(26)];

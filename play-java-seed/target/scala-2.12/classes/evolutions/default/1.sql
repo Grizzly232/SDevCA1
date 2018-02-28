@@ -26,7 +26,7 @@ create table employee (
 
 create table project (
   project_name                  varchar(255) not null,
-  next_deadline                 timestamp,
+  category                      varchar(255),
   description                   varchar(255),
   constraint pk_project primary key (project_name)
 );

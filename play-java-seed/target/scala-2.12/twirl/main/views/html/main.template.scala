@@ -59,7 +59,7 @@ Seq[Any](format.raw/*7.58*/("""
 	<div class="container-fluid">
 		<ul class="nav navbar-nav buttons">
 			<li><a href=""""),_display_(/*30.18*/routes/*30.24*/.HomeController.index()),format.raw/*30.47*/("""">Home</a></li>
-			<li><a href=""""),_display_(/*31.18*/routes/*31.24*/.HomeController.store()),format.raw/*31.47*/("""">Projects</a></li>
+			<li><a href=""""),_display_(/*31.18*/routes/*31.24*/.HomeController.projects()),format.raw/*31.50*/("""">Projects</a></li>
 			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Log in 
 				<span class="caret"></span></a>
 				<ul class="dropdown-menu">
@@ -69,24 +69,23 @@ Seq[Any](format.raw/*7.58*/("""
 					<label class="form-check-label">
 						<input type="checkbox" class="form-check-input"> Remember me
 					</label>
-					<h5>Not a member? <a href=""""),_display_(/*41.34*/routes/*41.40*/.HomeController.signup()),format.raw/*41.64*/("""">Register here</a></h5>
 				</ul>
 			</li>
 		</ul>
 	</div>
-        """),format.raw/*47.32*/("""
-        """),_display_(/*48.10*/content),format.raw/*48.17*/("""
-	"""),format.raw/*49.2*/("""<div class="container-fluid footer">
+        """),format.raw/*46.32*/("""
+        """),_display_(/*47.10*/content),format.raw/*47.17*/("""
+	"""),format.raw/*48.2*/("""<div class="container-fluid footer">
 		<h4>JCMB Inc. &copy 2018</h4>
 		<a href="#">Back to top</a>
 	</div>
 		
 		
-		<script src=""""),_display_(/*55.17*/routes/*55.23*/.Assets.versioned("javascripts/jquery-3.2.1.slim.js")),format.raw/*55.76*/(""""></script>
-        <script src=""""),_display_(/*56.23*/routes/*56.29*/.Assets.versioned("javascripts/main.js")),format.raw/*56.69*/(""""></script>
-        <script src=""""),_display_(/*57.23*/routes/*57.29*/.Assets.versioned("javascripts/bootstrap.js")),format.raw/*57.74*/(""""></script>
-        <script src=""""),_display_(/*58.23*/routes/*58.29*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*58.78*/(""""></script>
-		<script src=""""),_display_(/*59.17*/routes/*59.23*/.Assets.versioned("javascripts/main.js")),format.raw/*59.63*/(""""></script> 
+		<script src=""""),_display_(/*54.17*/routes/*54.23*/.Assets.versioned("javascripts/jquery-3.2.1.slim.js")),format.raw/*54.76*/(""""></script>
+        <script src=""""),_display_(/*55.23*/routes/*55.29*/.Assets.versioned("javascripts/main.js")),format.raw/*55.69*/(""""></script>
+        <script src=""""),_display_(/*56.23*/routes/*56.29*/.Assets.versioned("javascripts/bootstrap.js")),format.raw/*56.74*/(""""></script>
+        <script src=""""),_display_(/*57.23*/routes/*57.29*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*57.78*/(""""></script>
+		<script src=""""),_display_(/*58.17*/routes/*58.23*/.Assets.versioned("javascripts/main.js")),format.raw/*58.63*/(""""></script> 
 
     </body>
 </html>
@@ -106,11 +105,11 @@ Seq[Any](format.raw/*7.58*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Feb 21 09:52:42 GMT 2018
+                  DATE: Wed Feb 28 22:13:35 GMT 2018
                   SOURCE: C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/views/main.scala.html
-                  HASH: 124d19e1ccbbddab50c9c5ed37f8628bc033544b
-                  MATRIX: 1216->266|1367->322|1397->326|1480->434|1517->444|1552->452|1578->457|1665->517|1680->523|1748->569|1829->623|1844->629|1916->679|1991->727|2006->733|2068->774|2157->836|2172->842|2233->881|2266->888|2294->895|2324->898|2709->1256|2724->1262|2768->1285|2829->1319|2844->1325|2888->1348|3498->1931|3513->1937|3558->1961|3659->2125|3697->2136|3725->2143|3755->2146|3917->2281|3932->2287|4006->2340|4068->2375|4083->2381|4144->2421|4206->2456|4221->2462|4287->2507|4349->2542|4364->2548|4434->2597|4490->2626|4505->2632|4566->2672
-                  LINES: 33->7|38->7|40->9|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|47->16|47->16|47->16|48->17|48->17|48->17|49->18|49->18|50->19|61->30|61->30|61->30|62->31|62->31|62->31|72->41|72->41|72->41|77->47|78->48|78->48|79->49|85->55|85->55|85->55|86->56|86->56|86->56|87->57|87->57|87->57|88->58|88->58|88->58|89->59|89->59|89->59
+                  HASH: 43d730042b3f7fbf2dc6ce387922e41c9ea83cbe
+                  MATRIX: 1216->266|1367->322|1397->326|1480->434|1517->444|1552->452|1578->457|1665->517|1680->523|1748->569|1829->623|1844->629|1916->679|1991->727|2006->733|2068->774|2157->836|2172->842|2233->881|2266->888|2294->895|2324->898|2709->1256|2724->1262|2768->1285|2829->1319|2844->1325|2891->1351|3516->2039|3554->2050|3582->2057|3612->2060|3774->2195|3789->2201|3863->2254|3925->2289|3940->2295|4001->2335|4063->2370|4078->2376|4144->2421|4206->2456|4221->2462|4291->2511|4347->2540|4362->2546|4423->2586
+                  LINES: 33->7|38->7|40->9|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|47->16|47->16|47->16|48->17|48->17|48->17|49->18|49->18|50->19|61->30|61->30|61->30|62->31|62->31|62->31|76->46|77->47|77->47|78->48|84->54|84->54|84->54|85->55|85->55|85->55|86->56|86->56|86->56|87->57|87->57|87->57|88->58|88->58|88->58
                   -- GENERATED --
               */
           
