@@ -31,8 +31,26 @@ create table project (
   constraint pk_project primary key (project_name)
 );
 
+create table project_employee (
+  project_project_name          varchar(255) not null,
+  employee_emp_id               bigint not null,
+  constraint pk_project_employee primary key (project_project_name,employee_emp_id)
+);
+
+alter table project_employee add constraint fk_project_employee_project foreign key (project_project_name) references project (project_name) on delete restrict on update restrict;
+create index ix_project_employee_project on project_employee (project_project_name);
+
+alter table project_employee add constraint fk_project_employee_employee foreign key (employee_emp_id) references employee (emp_id) on delete restrict on update restrict;
+create index ix_project_employee_employee on project_employee (employee_emp_id);
+
 
 # --- !Downs
+
+alter table project_employee drop constraint if exists fk_project_employee_project;
+drop index if exists ix_project_employee_project;
+
+alter table project_employee drop constraint if exists fk_project_employee_employee;
+drop index if exists ix_project_employee_employee;
 
 drop table if exists address;
 
@@ -41,4 +59,6 @@ drop table if exists department;
 drop table if exists employee;
 
 drop table if exists project;
+
+drop table if exists project_employee;
 

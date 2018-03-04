@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/conf/routes
-// @DATE:Wed Feb 28 22:11:22 GMT 2018
+// @DATE:Sun Mar 04 10:15:10 GMT 2018
 
 package router
 
@@ -17,7 +17,7 @@ class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:6
   HomeController_0: controllers.HomeController,
-  // @LINE:10
+  // @LINE:11
   Assets_1: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -26,7 +26,7 @@ class Routes(
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:6
     HomeController_0: controllers.HomeController,
-    // @LINE:10
+    // @LINE:11
     Assets_1: controllers.Assets
   ) = this(errorHandler, HomeController_0, Assets_1, "/")
 
@@ -42,6 +42,7 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """projects""", """controllers.HomeController.projects"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """project/""" + "$" + """name<[^/]+>""", """controllers.HomeController.project(name:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.at(path:String = "/public", file:String)"""),
     Nil
@@ -87,11 +88,29 @@ class Routes(
     )
   )
 
-  // @LINE:10
-  private[this] lazy val controllers_Assets_versioned2_route = Route("GET",
+  // @LINE:8
+  private[this] lazy val controllers_HomeController_project2_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("project/"), DynamicPart("name", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_HomeController_project2_invoker = createInvoker(
+    HomeController_0.project(fakeValue[String]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.HomeController",
+      "project",
+      Seq(classOf[String]),
+      "GET",
+      this.prefix + """project/""" + "$" + """name<[^/]+>""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:11
+  private[this] lazy val controllers_Assets_versioned3_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned2_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned3_invoker = createInvoker(
     Assets_1.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -105,11 +124,11 @@ class Routes(
     )
   )
 
-  // @LINE:11
-  private[this] lazy val controllers_Assets_at3_route = Route("GET",
+  // @LINE:12
+  private[this] lazy val controllers_Assets_at4_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_at3_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_at4_invoker = createInvoker(
     Assets_1.at(fakeValue[String], fakeValue[String]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -138,16 +157,22 @@ class Routes(
         controllers_HomeController_projects1_invoker.call(HomeController_0.projects)
       }
   
-    // @LINE:10
-    case controllers_Assets_versioned2_route(params@_) =>
-      call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned2_invoker.call(Assets_1.versioned(path, file))
+    // @LINE:8
+    case controllers_HomeController_project2_route(params@_) =>
+      call(params.fromPath[String]("name", None)) { (name) =>
+        controllers_HomeController_project2_invoker.call(HomeController_0.project(name))
       }
   
     // @LINE:11
-    case controllers_Assets_at3_route(params@_) =>
+    case controllers_Assets_versioned3_route(params@_) =>
+      call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
+        controllers_Assets_versioned3_invoker.call(Assets_1.versioned(path, file))
+      }
+  
+    // @LINE:12
+    case controllers_Assets_at4_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_at3_invoker.call(Assets_1.at(path, file))
+        controllers_Assets_at4_invoker.call(Assets_1.at(path, file))
       }
   }
 }

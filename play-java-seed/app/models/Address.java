@@ -7,7 +7,7 @@ import io.ebean.*;
 import play.data.validation.*;
 
 @Entity
-public class Address {
+public class Address extends Model {
 
     @Id
     private String number;

@@ -16,6 +16,7 @@ import javax.inject.Inject;
 
 public class DatabaseOperator {
 
+    Random rand = new Random();
     public char[] randomData = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
@@ -32,14 +33,13 @@ public class DatabaseOperator {
 
     public void fillProject(int amount) {
         for(int i = 0; i < amount; i++) {
-            Project proj = new Project(getString(5), "Artificial Intelligence", "Using neural" +
-                    "networks and specialized backpropagation algorithms, our scientists have managed to create an AI");
+            Project proj = new Project(getString(5), getString(15), getSentence(20));
             Ebean.save(proj);
         }
     }
 
     public char getLetter() {
-        Random rand = new Random();
+
         return randomData[rand.nextInt(26)];
     }
 
@@ -47,6 +47,15 @@ public class DatabaseOperator {
         String out = "";
         for(int i = 0; i < numChars; i++) {
             out = out.concat(String.valueOf(getLetter()));
+        }
+        return out;
+    }
+
+    public String getSentence(int numWords) {
+        String out = "";
+        for(int i = 0; i < numWords; i++) {
+            out = out.concat(getString(rand.nextInt(8)));
+            out = out.concat(" ");
         }
         return out;
     }

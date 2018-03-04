@@ -4,42 +4,40 @@
     <list default="true" id="e3fea213-dc4f-4201-9967-d0ab00892db2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/controllers/HomeController.java" afterPath="$PROJECT_DIR$/app/controllers/HomeController.java" />
+      <change beforePath="$PROJECT_DIR$/app/models/Address.java" afterPath="$PROJECT_DIR$/app/models/Address.java" />
+      <change beforePath="$PROJECT_DIR$/app/models/Department.java" afterPath="$PROJECT_DIR$/app/models/Department.java" />
+      <change beforePath="$PROJECT_DIR$/app/models/Employee.java" afterPath="$PROJECT_DIR$/app/models/Employee.java" />
       <change beforePath="$PROJECT_DIR$/app/models/Project.java" afterPath="$PROJECT_DIR$/app/models/Project.java" />
       <change beforePath="$PROJECT_DIR$/app/models/database/DatabaseOperator.java" afterPath="$PROJECT_DIR$/app/models/database/DatabaseOperator.java" />
-      <change beforePath="$PROJECT_DIR$/app/views/cart.scala.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
-      <change beforePath="$PROJECT_DIR$/app/views/signup.scala.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/views/store.scala.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/projects.scala.html" afterPath="$PROJECT_DIR$/app/views/projects.scala.html" />
       <change beforePath="$PROJECT_DIR$/conf/evolutions/default/1.sql" afterPath="$PROJECT_DIR$/conf/evolutions/default/1.sql" />
       <change beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
       <change beforePath="$PROJECT_DIR$/data/employeeDB.mv.db" afterPath="$PROJECT_DIR$/data/employeeDB.mv.db" />
-      <change beforePath="$PROJECT_DIR$/data/employeeDB.trace.db" afterPath="$PROJECT_DIR$/data/employeeDB.trace.db" />
       <change beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
+      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/HomeController.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/HomeController.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/ReverseAssets.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/ReverseHomeController.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/ReverseHomeController.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/javascript/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/javascript/ReverseAssets.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/javascript/ReverseHomeController.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/javascript/ReverseHomeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/evolutions/default/1.sql" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/evolutions/default/1.sql" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/Address.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/Address.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/Department.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/Department.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/Employee.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/Employee.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/Project.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/Project.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/database/DatabaseOperator.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/database/DatabaseOperator.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/router/Routes.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/router/Routes.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/routes" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/routes" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/cart$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/cart.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/main$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/main$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/signup$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/signup.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/store$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/store.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/projects$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/projects$.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala" afterPath="$PROJECT_DIR$/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterPath="$PROJECT_DIR$/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/routes/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.12/routes/main/controllers/routes.java" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/routes/main/router/Routes.scala" afterPath="$PROJECT_DIR$/target/scala-2.12/routes/main/router/Routes.scala" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/routes/main/router/RoutesPrefix.scala" afterPath="$PROJECT_DIR$/target/scala-2.12/routes/main/router/RoutesPrefix.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/cart.template.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/main.template.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/signup.template.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/store.template.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/projects.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/projects.template.scala" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/sync-exported-assets-web-assets" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/sync-exported-assets-web-assets" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
@@ -47,6 +45,9 @@
       <change beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.12" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.12" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" />
+      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" afterPath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/gamecommodities/1.0-SNAPSHOT/stylesheets/main.css" afterPath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/gamecommodities/1.0-SNAPSHOT/stylesheets/main.css" />
+      <change beforePath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" afterPath="$PROJECT_DIR$/target/web/public/main/stylesheets/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -70,12 +71,7 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="H2 - default@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ExternalProjectsData">
@@ -98,8 +94,18 @@
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="29" column="66" lean-forward="false" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            <state relative-caret-position="759">
+              <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.scala.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/project.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -109,17 +115,7 @@
         <entry file="file://$PROJECT_DIR$/conf/routes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -128,18 +124,8 @@
       <file leaf-file-name="main.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseOperator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="352">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -148,38 +134,38 @@
       <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+            <state relative-caret-position="294">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1092#1093#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1448#1449#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1726#1727#0" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+      <file leaf-file-name="DatabaseOperator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            <state relative-caret-position="1269">
+              <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -188,24 +174,33 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="83" />
+            <state relative-caret-position="486">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <file leaf-file-name="EMPLOYEES" pinned="false" current-in-tab="false">
+        <entry file="das://table:/3a913f0e/36e00ccd-7e6f-4d73-b1ba-97768857f387/EMPLOYEEDB&amp;dot;MV&amp;dot;DB.PUBLIC.EMPLOYEES">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="227">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -214,8 +209,8 @@
       <file leaf-file-name="projects.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="574">
+              <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -262,17 +257,18 @@
         <option value="$PROJECT_DIR$/app/models/database/DatabaseJPA.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/36e00ccd-7e6f-4d73-b1ba-97768857f387/console.sql" />
         <option value="$PROJECT_DIR$/app/models/database/Address.java" />
-        <option value="$PROJECT_DIR$/app/models/Employee.java" />
+        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
+        <option value="$PROJECT_DIR$/conf/evolutions/default/1.sql" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/models/Address.java" />
         <option value="$PROJECT_DIR$/app/models/Department.java" />
         <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/views/projects.scala.html" />
         <option value="$PROJECT_DIR$/app/models/Project.java" />
-        <option value="$PROJECT_DIR$/app/controllers/HomeController.java" />
-        <option value="$PROJECT_DIR$/conf/evolutions/default/1.sql" />
+        <option value="$PROJECT_DIR$/app/models/Employee.java" />
         <option value="$PROJECT_DIR$/app/models/database/DatabaseOperator.java" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/app/views/project.scala.html" />
       </list>
     </option>
   </component>
@@ -328,10 +324,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,6 +394,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -609,7 +605,8 @@
       <workItem from="1519233949601" duration="13831000" />
       <workItem from="1519646564794" duration="12887000" />
       <workItem from="1519729313492" duration="19531000" />
-      <workItem from="1519854455739" duration="6825000" />
+      <workItem from="1519854455739" duration="7418000" />
+      <workItem from="1520072623480" duration="13763000" />
     </task>
     <task id="LOCAL-00001" summary="just thought i'd throw more broken shit in here">
       <created>1519667740554</created>
@@ -629,7 +626,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53074000" />
+    <option name="totallyTimeSpent" value="67430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -642,7 +639,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,8 +653,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.30522946" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.6947705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.31590182" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.6840982" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -692,6 +689,112 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="29" column="66" lean-forward="false" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJPA.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e00ccd-7e6f-4d73-b1ba-97768857f387/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,10 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#732#733#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,10 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#732#733#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,28 +849,6 @@
     <entry file="file://$PROJECT_DIR$/conf/META-INF/persistence.xml" />
     <entry file="file://$PROJECT_DIR$/conf/META-INF/persistence.xml" />
     <entry file="file://$PROJECT_DIR$/conf/evolutions/default/default.sql" />
-    <entry file="uml://Persistence/JavaeeElement:/3a913f0e/Entities/root/jpa/JPA/PersistenceModel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Persistence</ID>
-          <OriginalElement>JavaeeElement:/3a913f0e/Entities/root/jpa/JPA/PersistenceModel</OriginalElement>
-          <nodes>
-            <node x="" y="">Employee#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/database/models/Employee.java</node>
-            <node x="" y="">Model#jar://C:/Users/micha/.ivy2/cache/io.ebean/ebean/jars/ebean-10.4.4.jar!/io/ebean/Model.class</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="90.0" y="109.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Embeddables</Category>
-            <Category>Properties</Category>
-            <Category>Superclasses</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJPA.java" />
     <entry file="file://$PROJECT_DIR$/app/database/models/Employee.java" />
     <entry file="file://$PROJECT_DIR$/build.sbt">
@@ -809,94 +884,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="277">
+          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -909,68 +903,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Employee.java">
+    <entry file="file://$PROJECT_DIR$/app/models/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="83" />
+        <state relative-caret-position="27">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/app/models/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="29" column="66" lean-forward="false" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+    <entry file="uml://Persistence/JavaeeElement:/3a913f0e/Entities/root/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/3a913f0e/Entities/root/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="0.0" y="152.5">Employee#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Employee.java</node>
+            <node x="844.75" y="0.0">Employee#null</node>
+            <node x="675.0" y="134.0">Project#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Project.java</node>
+            <node x="381.75" y="0.0">Model#jar://C:/Users/micha/.ivy2/cache/io.ebean/ebean/jars/ebean-10.4.4.jar!/io/ebean/Model.class</node>
+            <node x="446.0" y="97.0">Address#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Address.java</node>
+            <node x="34.0" y="0.0">Project#null</node>
+            <node x="200.0" y="152.5">Department#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Department.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Department#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Department.java" target="Model#jar://C:/Users/micha/.ivy2/cache/io.ebean/ebean/jars/ebean-10.4.4.jar!/io/ebean/Model.class">
+              <point x="0.0" y="-60.5" />
+              <point x="313.0" y="77.0" />
+              <point x="419.25" y="77.0" />
+              <point x="-12.5" y="23.5" />
+            </edge>
+            <edge source="Employee#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Employee.java" target="Model#jar://C:/Users/micha/.ivy2/cache/io.ebean/ebean/jars/ebean-10.4.4.jar!/io/ebean/Model.class">
+              <point x="45.0" y="-60.5" />
+              <point x="135.0" y="67.0" />
+              <point x="394.25" y="67.0" />
+              <point x="-37.5" y="23.5" />
+            </edge>
+            <edge source="Address#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Address.java" target="Model#jar://C:/Users/micha/.ivy2/cache/io.ebean/ebean/jars/ebean-10.4.4.jar!/io/ebean/Model.class">
+              <point x="0.0" y="-116.0" />
+              <point x="550.5" y="77.0" />
+              <point x="444.25" y="77.0" />
+              <point x="12.5" y="23.5" />
+            </edge>
+            <edge source="Project#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Project.java" target="Model#jar://C:/Users/micha/.ivy2/cache/io.ebean/ebean/jars/ebean-10.4.4.jar!/io/ebean/Model.class">
+              <point x="-60.25" y="-79.0" />
+              <point x="735.25" y="67.0" />
+              <point x="469.25" y="67.0" />
+              <point x="37.5" y="23.5" />
+            </edge>
+            <edge source="Project#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Project.java" target="Employee#null">
+              <point x="60.25" y="-79.0" />
+              <point x="0.0" y="23.5" />
+            </edge>
+            <edge source="Employee#file://C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/models/Employee.java" target="Project#null">
+              <point x="-45.0" y="-60.5" />
+              <point x="0.0" y="23.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-184.0" y="59.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/3a913f0e/36e00ccd-7e6f-4d73-b1ba-97768857f387/EMPLOYEEDB&amp;dot;MV&amp;dot;DB.PUBLIC.EMPLOYEES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state relative-caret-position="486">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+        <state relative-caret-position="294">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        <state relative-caret-position="1269">
+          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/project.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>

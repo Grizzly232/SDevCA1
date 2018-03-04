@@ -4,10 +4,11 @@ import java.util.*;
 import javax.persistence.*;
 
 import io.ebean.*;
+import play.mvc.PathBindable;
 import play.data.validation.*;
 
 @Entity
-public class Project {
+public class Project extends Model {
 
     @Transient
     public static final Finder<Long, Project> find = new Finder<>(Project.class);
@@ -17,8 +18,8 @@ public class Project {
     //private Calendar nextDeadline;
     private String category;
 
-    @Transient
-    private ArrayList<Employee> collaborators;
+    @ManyToMany(cascade = CascadeType.ALL)
+    public List<Employee> collaborators;
     //private Image projectImage;   dunno how to implement images yet, have much to rearn
     private String description;
 
@@ -56,11 +57,11 @@ public class Project {
 //        this.nextDeadline = nextDeadline;
 //    }
 
-    public ArrayList<Employee> getCollaborators() {
+    public List<Employee> getCollaborators() {
         return collaborators;
     }
 
-    public void setCollaborators(ArrayList<Employee> collaborators) {
+    public void setCollaborators(List<Employee> collaborators) {
         this.collaborators = collaborators;
     }
 

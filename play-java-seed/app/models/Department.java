@@ -7,7 +7,7 @@ import io.ebean.*;
 import play.data.validation.*;
 
 @Entity
-public class Department {
+public class Department extends Model {
 
     @Id
     private String name;

@@ -19,6 +19,9 @@ public class Employee extends Model {
     @Column
     private String name;
 
+    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "collaborators")
+    public List<Project> projects;
+
     public Employee() {
 
     }

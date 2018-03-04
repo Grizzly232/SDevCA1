@@ -17,6 +17,7 @@ public class HomeController extends Controller {
 	Random rand = new Random();
     DatabaseOperator db = new DatabaseOperator();
 
+    List<Project> projList;
 	 
     public Result index() {
         db.fillEmployee(5);
@@ -26,7 +27,19 @@ public class HomeController extends Controller {
 
     public Result projects() {
         db.fillProject(2);
-        List<Project> projList = Project.findAll();
+        projList = Project.findAll();
 		return ok(views.html.projects.render("wilkommen", projList));
 	}
+
+	public Result project(String name) {
+        projList = Project.findAll();
+        Project projToLoad = new Project();
+        List<Employee> collaborators = projToLoad.getCollaborators();
+
+        for(Project p : projList) {
+            if(p.getProjectName().equals(name))
+                projToLoad = p;
+        }
+        return ok(views.html.project.render(name, projToLoad, collaborators));
+    }
 }

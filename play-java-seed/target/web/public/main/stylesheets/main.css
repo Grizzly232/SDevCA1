@@ -53,6 +53,11 @@ body {
     border: 2px outset gray;
     padding: 2%;
     background-color: #b6efa5;
+    float: right;
+}
+
+.filter {
+    float: left;
 }
 
 .project img {

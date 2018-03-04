@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/conf/routes
-// @DATE:Wed Feb 28 22:11:22 GMT 2018
+// @DATE:Sun Mar 04 10:15:10 GMT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -19,6 +19,16 @@ package controllers.javascript {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
+  
+    // @LINE:8
+    def project: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.project",
+      """
+        function(name0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "project/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("name", name0))})
+        }
+      """
+    )
   
     // @LINE:6
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
@@ -42,7 +52,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:10
+  // @LINE:11
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -50,7 +60,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
+    // @LINE:12
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """
@@ -60,7 +70,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:10
+    // @LINE:11
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
