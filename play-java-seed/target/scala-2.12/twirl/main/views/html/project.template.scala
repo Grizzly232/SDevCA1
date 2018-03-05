@@ -22,10 +22,10 @@ import play.mvc.Http.Context.Implicit._
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
 
-object project extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template2[String,models.Project,play.twirl.api.HtmlFormat.Appendable] {
+object project extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template3[String,models.Project,List[models.Employee],play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/(name: String, project: models.Project):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(name: String, project: models.Project, collaborators: List[models.Employee]):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
@@ -39,23 +39,42 @@ Seq[Any](format.raw/*3.13*/("""
             """),format.raw/*8.13*/("""}"""),format.raw/*8.14*/(""");
     </script>
 """)))};
-Seq[Any](format.raw/*1.41*/(""" """),format.raw/*1.42*/("""<!Michael Brady X00136103>
+Seq[Any](format.raw/*1.79*/(""" """),format.raw/*1.80*/("""<!Michael Brady X00136103>
 
 """),format.raw/*10.2*/("""
 
 """),_display_(/*12.2*/main("JCMB Inc. ".concat(project.getProjectName), scripts)/*12.60*/ {_display_(Seq[Any](format.raw/*12.62*/("""
     """),format.raw/*13.5*/("""<div class="wrapper">
-
+        <div class="container">
+            <div class="well well-lg">
+                <div class="row">
+                    <img src=""""),_display_(/*17.32*/routes/*17.38*/.Assets.versioned("images/brain.jpg")),format.raw/*17.75*/("""">
+                    <h1>"""),_display_(/*18.26*/project/*18.33*/.getProjectName),format.raw/*18.48*/("""</h1>
+                    <h4>"""),_display_(/*19.26*/project/*19.33*/.getDescription),format.raw/*19.48*/("""</h4>
+                </div>
+                <div class="row">
+                    <h1>Project Collaborators</h1>
+                    <table class="table table-bordered">
+                        <th>ID</th>
+                        <th>Name</th>
+                        """),_display_(/*26.26*/for(emp <- collaborators) yield /*26.51*/ {_display_(Seq[Any](format.raw/*26.53*/("""
+                            """),format.raw/*27.29*/("""<tr>"""),_display_(/*27.34*/emp/*27.37*/.getEmp_id),format.raw/*27.47*/("""</tr>
+                            <tr>"""),_display_(/*28.34*/emp/*28.37*/.getName),format.raw/*28.45*/("""</tr>
+                        """)))}),format.raw/*29.26*/("""
+                    """),format.raw/*30.21*/("""</table>
+                </div>
+            </div>
+        </div>
     </div>
-""")))}),format.raw/*16.2*/("""
+""")))}),format.raw/*35.2*/("""
 """))
       }
     }
   }
 
-  def render(name:String,project:models.Project): play.twirl.api.HtmlFormat.Appendable = apply(name,project)
+  def render(name:String,project:models.Project,collaborators:List[models.Employee]): play.twirl.api.HtmlFormat.Appendable = apply(name,project,collaborators)
 
-  def f:((String,models.Project) => play.twirl.api.HtmlFormat.Appendable) = (name,project) => apply(name,project)
+  def f:((String,models.Project,List[models.Employee]) => play.twirl.api.HtmlFormat.Appendable) = (name,project,collaborators) => apply(name,project,collaborators)
 
   def ref: this.type = this
 
@@ -64,11 +83,11 @@ Seq[Any](format.raw/*1.41*/(""" """),format.raw/*1.42*/("""<!Michael Brady X0013
 
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 04 10:47:23 GMT 2018
+                  DATE: Mon Mar 05 14:49:03 GMT 2018
                   SOURCE: C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/app/views/project.scala.html
-                  HASH: e05ba0d5368e93e536edcc60bd65e202254a8830
-                  MATRIX: 965->1|1082->72|1096->79|1176->83|1208->89|1248->103|1262->109|1335->162|1454->254|1482->255|1527->273|1601->320|1629->321|1688->40|1716->41|1773->341|1804->346|1871->404|1911->406|1944->412|2012->450
-                  LINES: 28->1|32->3|32->3|34->3|35->4|35->4|35->4|35->4|37->6|37->6|38->7|39->8|39->8|42->1|42->1|44->10|46->12|46->12|46->12|47->13|50->16
+                  HASH: fdf3ef9b69c9e9e4182b5af4727aead5bcda7f8c
+                  MATRIX: 987->1|1142->110|1156->117|1236->121|1268->127|1308->141|1322->147|1395->200|1514->292|1542->293|1587->311|1661->358|1689->359|1748->78|1776->79|1833->379|1864->384|1931->442|1971->444|2004->450|2193->612|2208->618|2266->655|2322->684|2338->691|2374->706|2433->738|2449->745|2485->760|2789->1037|2830->1062|2870->1064|2928->1094|2960->1099|2972->1102|3003->1112|3070->1152|3082->1155|3111->1163|3174->1195|3224->1217|3337->1300
+                  LINES: 28->1|32->3|32->3|34->3|35->4|35->4|35->4|35->4|37->6|37->6|38->7|39->8|39->8|42->1|42->1|44->10|46->12|46->12|46->12|47->13|51->17|51->17|51->17|52->18|52->18|52->18|53->19|53->19|53->19|60->26|60->26|60->26|61->27|61->27|61->27|61->27|62->28|62->28|62->28|63->29|64->30|69->35
                   -- GENERATED --
               */
           

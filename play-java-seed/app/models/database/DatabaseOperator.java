@@ -39,7 +39,6 @@ public class DatabaseOperator {
     }
 
     public char getLetter() {
-
         return randomData[rand.nextInt(26)];
     }
 

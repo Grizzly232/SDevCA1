@@ -79,3 +79,17 @@ body {
 .clear {
     clear: both;
 }
+
+.well {
+    margin-top: 5%;
+    background-color: #b6efa5;
+    border: 2px solid #65a54f;
+}
+
+.well img {
+    box-shadow: 5px 5px #888888;
+}
+
+.table {
+    border: 3px solid #65a54f;
+}
