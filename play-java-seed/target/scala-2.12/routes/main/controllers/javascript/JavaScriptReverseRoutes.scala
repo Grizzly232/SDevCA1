@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/micha/Documents/GitHub/SDevCA1/play-java-seed/conf/routes
-// @DATE:Sun Mar 04 10:15:10 GMT 2018
+// @DATE:Tue Mar 06 17:25:51 GMT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="H2 - default@localhost" uuid="36e00ccd-7e6f-4d73-b1ba-97768857f387">
+    <data-source name="employeeDB" uuid="c25c5530-c014-4fe8-b72b-85d11d9c5117">
       <database-info product="H2" version="1.4.196 (2017-06-10)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.196 (2017-06-10)">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
       <user-name>admin</user-name>
-      <introspection-schemas>EMPLOYEEDB:*|EMPLOYEEDB.MV.DB:*</introspection-schemas>
+      <introspection-schemas>EMPLOYEEDB:PUBLIC|EMPLOYEEDB.MV.DB:PUBLIC</introspection-schemas>
     </data-source>
   </component>
 </project>

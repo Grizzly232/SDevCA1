@@ -16,8 +16,13 @@ public class Employee extends Model {
     @Column
     private long emp_id;
     @Constraints.Required
-    @Column
-    private String name;
+
+    private String fName;
+    private String lName;
+
+    @OneToOne
+    @JoinColumn(name = "address")
+    public Address address;
 
     @ManyToMany(cascade = CascadeType.ALL, mappedBy = "collaborators")
     public List<Project> projects;
@@ -26,8 +31,8 @@ public class Employee extends Model {
 
     }
 
-    public Employee(String name) {
-        this.name = name;
+    public Employee(@Constraints.Required String fName) {
+        this.fName = fName;
     }
 
     public long getEmp_id() {
@@ -37,15 +42,6 @@ public class Employee extends Model {
     public void setEmp_id(long emp_id) {
         this.emp_id = emp_id;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
 
     static public List<Employee> findAll() {
         return Employee.find.all();

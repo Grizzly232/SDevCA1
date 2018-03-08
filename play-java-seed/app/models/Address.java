@@ -11,6 +11,10 @@ public class Address extends Model {
 
     @Id
     private String number;
+
+    @OneToOne(mappedBy = "address")
+    private Employee emp;
+
     private String street;
     private String city;
     private String postcode;

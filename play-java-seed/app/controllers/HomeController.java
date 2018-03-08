@@ -26,7 +26,8 @@ public class HomeController extends Controller {
     }
 
     public Result projects() {
-        db.fillProject(2);
+        db.deleteProject();
+        db.fillProject();
         projList = Project.findAll();
 		return ok(views.html.projects.render("wilkommen", projList));
 	}
