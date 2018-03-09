@@ -2,6 +2,7 @@ package models.database;
 
 import io.ebean.Ebean;
 
+import io.ebean.SqlUpdate;
 import models.*;
 import org.springframework.context.annotation.Bean;
 import play.Logger;
@@ -85,6 +86,17 @@ public class DatabaseOperator {
         else {
             log.error("Invalid object type for operation DatabaseOperator.add(). Type: " + obj.getClass());
         }
+    }
+
+    public void addToAssociation(Project proj, Employee emp) {
+        SqlUpdate insert = Ebean.createSqlUpdate("INSERT INTO project_employee VALUES (:proj, :emp)");
+        insert.setParameter("proj", proj.getProjectName());
+        insert.setParameter("emp", emp.getEmp_id());
+        log.debug("current statement: " + insert);
+        log.debug("proj: " + proj.getProjectName() + ", emp: " + emp.getEmp_id());
+        insert.execute();
+
+        proj.getCollaborators().add(emp);
     }
 
     public void delete(Object obj) {

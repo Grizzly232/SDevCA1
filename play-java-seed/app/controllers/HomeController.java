@@ -1,5 +1,8 @@
 package controllers;
 
+import io.ebean.Ebean;
+import io.ebean.ExpressionList;
+import io.ebean.SqlQuery;
 import play.mvc.*;
 
 import models.*;
@@ -26,11 +29,11 @@ public class HomeController extends Controller {
     }
 
     public Result projects() {
-        db.deleteAll();
-        db.fillProject();
-        db.fillEmployee();
+        //db.fillProject();
+        //db.fillEmployee();
         projList = Project.findAll();
-        log.debug("this is a fucken debug message");
+
+        db.log.debug("this is a fucken debug message");
 		return ok(projects.render("wilkommen", projList));
 	}
 
@@ -38,11 +41,17 @@ public class HomeController extends Controller {
         projList = Project.findAll();
         Project projToLoad = new Project();
         List<Employee> collaborators = projToLoad.getCollaborators();
+        SqlQuery sql = Ebean.createSqlQuery("SELECT * FROM PROJECT_EMPLOYEE");
 
         for(Project p : projList) {
             if(p.getProjectName().equals(name))
                 projToLoad = p;
         }
+
+        Employee emp = Ebean.find(Employee.class, 3);
+        db.log.debug("Employee: " + emp.getEmp_id());
+        db.addToAssociation(projToLoad, emp);
+
         return ok(project.render(name, projToLoad, collaborators));
     }
 }

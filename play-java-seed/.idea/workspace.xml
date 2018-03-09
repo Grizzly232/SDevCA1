@@ -2,76 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3fea213-dc4f-4201-9967-d0ab00892db2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/36e00ccd-7e6f-4d73-b1ba-97768857f387.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_googlecode_usc_jdbcdslog_1_0_6_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_googlecode_usc_jdbcdslog_1_0_6_2_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_novocode_junit_interface_0_11_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_novocode_junit_interface_0_11_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_12_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_12_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_4_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_4_1_0_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_platform_4_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_platform_4_1_0_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_exec_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_exec_1_3_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_w3c_css_sac_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_w3c_css_sac_1_3_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_serializer_2_7_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_serializer_2_7_2_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_xalan_2_7_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_xalan_2_7_2_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_11_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_11_0_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_4_01_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_4_01_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c25c5530-c014-4fe8-b72b-85d11d9c5117.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c25c5530-c014-4fe8-b72b-85d11d9c5117.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/controllers/HomeController.java" afterPath="$PROJECT_DIR$/app/controllers/HomeController.java" />
-      <change beforePath="$PROJECT_DIR$/app/models/Address.java" afterPath="$PROJECT_DIR$/app/models/Address.java" />
-      <change beforePath="$PROJECT_DIR$/app/models/Employee.java" afterPath="$PROJECT_DIR$/app/models/Employee.java" />
       <change beforePath="$PROJECT_DIR$/app/models/database/DatabaseOperator.java" afterPath="$PROJECT_DIR$/app/models/database/DatabaseOperator.java" />
       <change beforePath="$PROJECT_DIR$/app/views/project.scala.html" afterPath="$PROJECT_DIR$/app/views/project.scala.html" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/conf/evolutions/default/1.sql" afterPath="$PROJECT_DIR$/conf/evolutions/default/1.sql" />
       <change beforePath="$PROJECT_DIR$/data/employeeDB.mv.db" afterPath="$PROJECT_DIR$/data/employeeDB.mv.db" />
       <change beforePath="$PROJECT_DIR$/data/employeeDB.trace.db" afterPath="$PROJECT_DIR$/data/employeeDB.trace.db" />
       <change beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$84314c8b7c43683940e2$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$84314c8b7c43683940e2.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$84314c8b7c43683940e2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$16eff12a18e96a224e8f$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$16eff12a18e96a224e8f.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$16eff12a18e96a224e8f.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b9cc9875a96f512e8428$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b9cc9875a96f512e8428.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b9cc9875a96f512e8428.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3f6c2410add5aedae62a$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3f6c2410add5aedae62a.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3f6c2410add5aedae62a.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$481e2f58fc776c60194a$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$481e2f58fc776c60194a.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$481e2f58fc776c60194a.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$556c9414894f7d18c0c3$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$556c9414894f7d18c0c3.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$556c9414894f7d18c0c3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$74c424ae0a162b603084$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$74c424ae0a162b603084.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$74c424ae0a162b603084.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$77bdad4f66e80a8e626d$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$77bdad4f66e80a8e626d.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$77bdad4f66e80a8e626d.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7a13905eae76899490e6$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7a13905eae76899490e6.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7a13905eae76899490e6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9898288a54d65a13710f$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9898288a54d65a13710f.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9898288a54d65a13710f.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a89687c7ecb100a9eb1e$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a89687c7ecb100a9eb1e.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a89687c7ecb100a9eb1e.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d64f6d7a7de9908005e0$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d64f6d7a7de9908005e0.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d64f6d7a7de9908005e0.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ea0d21c4823121b75e81$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ea0d21c4823121b75e81.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ea0d21c4823121b75e81.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/HomeController.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/controllers/HomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/gamecommodities_2.12/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/gamecommodities_2.12/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/gamecommodities_2.12/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/gamecommodities_2.12/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-debian.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-debian.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-docker.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-docker.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-linux.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-linux.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-rpm.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-rpm.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-universal-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-universal-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-universal-src.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-universal-src.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-universal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-universal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-windows.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-gamecommodities_2.12-windows.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/Address.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/Address.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/Employee.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/Employee.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/models/database/DatabaseOperator.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/models/database/DatabaseOperator.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/project$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/views/html/project$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/project.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.12/twirl/main/views/html/project.template.scala" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.12" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.12" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -111,13 +102,6 @@
         <item name="EMPLOYEEDB: database" type="c8e2528e:H2ImplModel$Database" />
         <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="employeeDB" type="feb32156:DbDataSourceImpl" />
-        <item name="EMPLOYEEDB: database" type="c8e2528e:H2ImplModel$Database" />
-        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
-        <item name="PROJECT_EMPLOYEE: table" type="e4ce7bd9:H2ImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -138,44 +122,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="project.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/project.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="311">
+              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scala.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c25c5530-c014-4fe8-b72b-85d11d9c5117/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="162">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Project.java">
+      <file leaf-file-name="1.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="211">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,8 +165,8 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="1453">
+              <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
               <folding>
                 <element signature="e#1038#1039#0" expanded="true" />
                 <element signature="e#1066#1067#0" expanded="true" />
@@ -218,8 +200,8 @@
       <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="-168">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding>
                 <element signature="e#490#491#0" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
@@ -240,12 +222,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="321">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -260,24 +244,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseOperator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
-              <caret line="105" column="5" lean-forward="false" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-              <folding>
-                <element signature="e#4337#4338#0" expanded="true" />
-                <element signature="e#4388#4389#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="PROJECT" pinned="false" current-in-tab="false">
+        <entry file="das://table:/3a913f0e/c25c5530-c014-4fe8-b72b-85d11d9c5117/EMPLOYEEDB.PUBLIC.PROJECT">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PROJECT_EMPLOYEE" pinned="false" current-in-tab="false">
-        <entry file="das://table:/3a913f0e/c25c5530-c014-4fe8-b72b-85d11d9c5117/EMPLOYEEDB.PUBLIC.PROJECT_EMPLOYEE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="DatabaseOperator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="92" column="59" lean-forward="false" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+              <folding>
+                <element signature="e#4853#4854#0" expanded="true" />
+                <element signature="e#4904#4905#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -327,17 +311,17 @@
         <option value="$PROJECT_DIR$/app/views/projects.scala.html" />
         <option value="$PROJECT_DIR$/app/views/main.scala.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/36e00ccd-7e6f-4d73-b1ba-97768857f387/console.sql" />
         <option value="$PROJECT_DIR$/conf/evolutions/default/1.sql" />
         <option value="$PROJECT_DIR$/conf/evolutions/default/2.sql" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/app/views/project.scala.html" />
         <option value="$PROJECT_DIR$/app/models/Employee.java" />
         <option value="$PROJECT_DIR$/app/models/Address.java" />
-        <option value="$PROJECT_DIR$/app/controllers/HomeController.java" />
-        <option value="$PROJECT_DIR$/app/models/database/DatabaseOperator.java" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c25c5530-c014-4fe8-b72b-85d11d9c5117/console.sql" />
+        <option value="$PROJECT_DIR$/app/views/project.scala.html" />
+        <option value="$PROJECT_DIR$/app/models/database/DatabaseOperator.java" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.java" />
       </list>
     </option>
   </component>
@@ -685,7 +669,7 @@
       <workItem from="1519729313492" duration="19531000" />
       <workItem from="1519854455739" duration="7418000" />
       <workItem from="1520072623480" duration="20509000" />
-      <workItem from="1520592245974" duration="4910000" />
+      <workItem from="1520592245974" duration="12366000" />
     </task>
     <task id="LOCAL-00001" summary="just thought i'd throw more broken shit in here">
       <created>1519667740554</created>
@@ -705,10 +689,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99107000" />
+    <option name="totallyTimeSpent" value="106563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -731,9 +716,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.32484075" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.6751592" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.33280253" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.66719747" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -788,8 +773,8 @@
         <state relative-caret-position="918">
           <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding>
-            <element signature="e#4337#4338#0" expanded="true" />
-            <element signature="e#4388#4389#0" expanded="true" />
+            <element signature="e#4853#4854#0" expanded="true" />
+            <element signature="e#4904#4905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -814,7 +799,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,7 +819,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -957,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="709">
@@ -1009,18 +990,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="324">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/3a913f0e/c25c5530-c014-4fe8-b72b-85d11d9c5117/EMPLOYEEDB.PUBLIC.EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/app/models/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.3.11.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,52 +1031,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
+    <entry file="das://table:/3a913f0e/c25c5530-c014-4fe8-b72b-85d11d9c5117/EMPLOYEEDB.PUBLIC.PROJECT_EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+    <entry file="file://$PROJECT_DIR$/app/models/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="-168">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/project.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="1453">
+          <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding>
             <element signature="e#1038#1039#0" expanded="true" />
             <element signature="e#1066#1067#0" expanded="true" />
@@ -1106,68 +1094,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Address.java">
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-          <folding>
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.3.11.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="108">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/app/views/projects.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="297">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="105" column="5" lean-forward="false" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="e#4337#4338#0" expanded="true" />
-            <element signature="e#4388#4389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/3a913f0e/c25c5530-c014-4fe8-b72b-85d11d9c5117/EMPLOYEEDB.PUBLIC.PROJECT_EMPLOYEE">
+    <entry file="das://table:/3a913f0e/c25c5530-c014-4fe8-b72b-85d11d9c5117/EMPLOYEEDB.PUBLIC.EMPLOYEE">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf/evolutions/default/1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/project.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/database/DatabaseOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="92" column="59" lean-forward="false" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+          <folding>
+            <element signature="e#4853#4854#0" expanded="true" />
+            <element signature="e#4904#4905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c25c5530-c014-4fe8-b72b-85d11d9c5117/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
