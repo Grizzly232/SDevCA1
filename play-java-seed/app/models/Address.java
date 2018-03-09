@@ -10,53 +10,49 @@ import play.data.validation.*;
 public class Address extends Model {
 
     @Id
-    private String number;
+    private String line1;
+    private String line2;
+    private String line3;
 
-    @OneToOne(mappedBy = "address")
-    private Employee emp;
+    public Address() {
 
-    private String street;
-    private String city;
-    private String postcode;
-    private String state;
-
-    public String getNumber() {
-        return number;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public Address(String line1, String line2, String line3) {
+        this.line1 = line1;
+        this.line2 = line2;
+        this.line3 = line3;
+        Ebean.save(this);
     }
 
-    public String getStreet() {
-        return street;
+    public String getLine1() {
+        return line1;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
+    public void setLine1(String line1) {
+        this.line1 = line1;
     }
 
-    public String getCity() {
-        return city;
+    public String getLine2() {
+        return line2;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setLine2(String line2) {
+        this.line2 = line2;
     }
 
-    public String getPostcode() {
-        return postcode;
+    public String getLine3() {
+        return line3;
     }
 
-    public void setPostcode(String postcode) {
-        this.postcode = postcode;
+    public void setLine3(String line3) {
+        this.line3 = line3;
     }
 
-    public String getState() {
-        return state;
-    }
+    @Transient
+    public static final Finder<Long, Address> find = new Finder<>(Address.class);
 
-    public void setState(String state) {
-        this.state = state;
+    public static final List<Address> findAll() {
+        return Address.find.all();
     }
 }

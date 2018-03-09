@@ -1,7 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\micha\Documents\GitHub\SDevCA1\play-java-seed\app\views\projects.scala.html:24:73: illegal start of simple expression[0m
-[0m[[0m[31merror[0m] [0m[0m                <form action="@routes.HomeController.project(new String(@p.getProjectName))">[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\micha\Documents\GitHub\SDevCA1\play-java-seed\app\views\projects.scala.html:30:8: ')' expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m        </div>[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[error] C:\Users\micha\Documents\GitHub\SDevCA1\play-java-seed\app\models\database\DatabaseOperator.java:21:1: variable empList might not have been initialized
+[error]         empList.add(new Employee("Chungus", "Mc Fuddlestrom", new Address("24", "Wallaby Way", "Sydney", "12", "Australia"), 25, "Senior Ice-Cream Tester"));

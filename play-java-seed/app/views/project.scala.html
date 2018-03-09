@@ -23,9 +23,10 @@
                     <table class="table table-bordered">
                         <th>ID</th>
                         <th>Name</th>
-                        @for(emp <- collaborators) {
-                            <tr>@emp.getEmp_id</tr>
-                            <tr>@emp.getName</tr>
+                        @for(emp<-collaborators) {
+                            <tr>@emp.getfName</tr>
+                            <tr>@emp.getlName</tr>
+                            <tr>@emp.getAge</tr>
                         }
                     </table>
                 </div>

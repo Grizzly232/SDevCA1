@@ -4,12 +4,10 @@
 # --- !Ups
 
 create table address (
-  number                        varchar(255) not null,
-  street                        varchar(255),
-  city                          varchar(255),
-  postcode                      varchar(255),
-  state                         varchar(255),
-  constraint pk_address primary key (number)
+  line1                         varchar(255) not null,
+  line2                         varchar(255),
+  line3                         varchar(255),
+  constraint pk_address primary key (line1)
 );
 
 create table department (
@@ -20,7 +18,12 @@ create table department (
 
 create table employee (
   emp_id                        bigint auto_increment not null,
-  name                          varchar(255),
+  f_name                        varchar(255),
+  l_name                        varchar(255),
+  address_line1                 varchar(255),
+  age                           integer not null,
+  position                      varchar(255),
+  constraint uq_employee_address_line1 unique (address_line1),
   constraint pk_employee primary key (emp_id)
 );
 
@@ -37,6 +40,8 @@ create table project_employee (
   constraint pk_project_employee primary key (project_project_name,employee_emp_id)
 );
 
+alter table employee add constraint fk_employee_address_line1 foreign key (address_line1) references address (line1) on delete restrict on update restrict;
+
 alter table project_employee add constraint fk_project_employee_project foreign key (project_project_name) references project (project_name) on delete restrict on update restrict;
 create index ix_project_employee_project on project_employee (project_project_name);
 
@@ -45,6 +50,8 @@ create index ix_project_employee_employee on project_employee (employee_emp_id);
 
 
 # --- !Downs
+
+alter table employee drop constraint if exists fk_employee_address_line1;
 
 alter table project_employee drop constraint if exists fk_project_employee_project;
 drop index if exists ix_project_employee_project;

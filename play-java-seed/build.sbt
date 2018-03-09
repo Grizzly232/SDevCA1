@@ -1,4 +1,4 @@
-name := """gameCommodities"""
+name := """JCMB Inc."""
 organization := "com.example"
 
 version := "1.0-SNAPSHOT"

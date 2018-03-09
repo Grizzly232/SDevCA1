@@ -22,14 +22,16 @@ public class HomeController extends Controller {
     public Result index() {
         db.fillEmployee(5);
         List<Employee> empList = Employee.findAll();
-        return ok( index.render(empList.get(5).getName()));
+        return ok( index.render("hi"));
     }
 
     public Result projects() {
-        db.deleteProject();
+        db.deleteAll();
         db.fillProject();
+        db.fillEmployee();
         projList = Project.findAll();
-		return ok(views.html.projects.render("wilkommen", projList));
+        log.debug("this is a fucken debug message");
+		return ok(projects.render("wilkommen", projList));
 	}
 
 	public Result project(String name) {
@@ -41,6 +43,6 @@ public class HomeController extends Controller {
             if(p.getProjectName().equals(name))
                 projToLoad = p;
         }
-        return ok(views.html.project.render(name, projToLoad, collaborators));
+        return ok(project.render(name, projToLoad, collaborators));
     }
 }

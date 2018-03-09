@@ -3,11 +3,14 @@ package models.database;
 import io.ebean.Ebean;
 
 import models.*;
+import org.springframework.context.annotation.Bean;
+import play.Logger;
 
 import java.util.*;
 
 public class DatabaseOperator {
 
+    public static final Logger log = new Logger();
     Random rand = new Random();
     public char[] randomData = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
@@ -17,13 +20,18 @@ public class DatabaseOperator {
     }
 
     public void fillEmployee() {
-        List<Employee> empList = null;
-        empList.add(new Employee());
+        List<Employee> empList = new ArrayList<>();
+        empList.add(new Employee("Chungus", "Mc Fuddlestrom", new Address("24 Wallaby Way", "Sydney", "Earth"), 25, "Senior Ice-Cream Tester"));
+        empList.add(new Employee("Ricken", "Morty", new Address("2 Mugabe Lane", "Jinja", "Uganda"), 50, "Chief Wayfinder"));
+        empList.add(new Employee("Grug", "Rockhammer", new Address("Roundcave", "Grugopolis", "what is postcode?"), 12, "Junior Rockthrower"));
+        empList.add(new Employee("Mr. 'Neo'", "Anderson", new Address("123 High Street", "Mega City" , "The Matrix"), 21, "The One"));
+        Ebean.saveAll(empList);
     }
+
     public void fillEmployee(int amount) {
         for(int i = 0; i < amount; i++) {
-            Employee emp = new Employee(getWord(7));
-            Ebean.save(emp);
+
+
         }
     }
 
@@ -50,12 +58,56 @@ public class DatabaseOperator {
     }
 
     public void deleteAll() {
-        deleteProject();
+        deleteProjects();
+        deleteEmployees();
+        deleteAddresses();
     }
 
-    public void deleteProject() {
+    public void deleteProjects() {
         List<Project> projList = Project.findAll();
         Ebean.deleteAll(projList);
+    }
+
+    public void deleteEmployees() {
+        List<Employee> empList = Employee.findAll();
+        Ebean.deleteAll(empList);
+    }
+
+    public void deleteAddresses() {
+        List<Address> addrList = Address.findAll();
+        Ebean.deleteAll(addrList);
+    }
+
+    public void add(Object obj) {
+        if(isEntity(obj)) {
+            Ebean.save(obj);
+        }
+        else {
+            log.error("Invalid object type for operation DatabaseOperator.add(). Type: " + obj.getClass());
+        }
+    }
+
+    public void delete(Object obj) {
+        if(isEntity(obj)) {
+            Ebean.delete(obj);
+        }
+        else {
+            log.error("Invalid object type for operation DatabaseOperator.delete(). Type: " + obj.getClass());
+        }
+    }
+
+    public void update(Object obj) {
+        if(isEntity(obj)) {
+            Ebean.update(obj);
+        }
+        else {
+            log.error("Invalid object type for operation DatabaseOperator.update(). Type: " + obj.getClass());
+        }
+    }
+
+    public boolean isEntity(Object obj) {
+        return (obj instanceof Employee) || (obj instanceof Address)
+                || (obj instanceof Project) || (obj instanceof Department);
     }
 
     //randomizes letters. Used to generate data
