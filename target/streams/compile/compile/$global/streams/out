@@ -1,0 +1,2 @@
+[error] C:\Users\micha\Documents\GitHub\SDevCA1\play-java-seed\app\models\database\DatabaseOperator.java:21:1: variable empList might not have been initialized
+[error]         empList.add(new Employee("Chungus", "Mc Fuddlestrom", new Address("24", "Wallaby Way", "Sydney", "12", "Australia"), 25, "Senior Ice-Cream Tester"));
